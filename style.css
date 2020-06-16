@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-image: url("./미안하다.png");
+  background-size: cover;
+  /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+}
+.nope {
+  padding: 15px;
+  color: black;
+}
+
+.naruto {
+  padding: 15px;
+  color: white;
+  margin-bottom: 500px;
+}
+
+.sasuke {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.legeno {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
