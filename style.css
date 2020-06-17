@@ -1,9 +1,20 @@
-body {
-  margin: 0;
-  background-image: url("./미안하다.png");
-  background-size: cover;
-  /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    background-size: contain;
+    background-image: url("./미안하다.png");
+    /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+  }
 }
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    background-size: cover;
+    background-image: url("./미안하다.png");
+    /*background: linear-gradient(red, orange, yellow, green, blue, indigo, purple);*/
+  }
+}
+
 .nope {
   padding: 15px;
   color: black;
